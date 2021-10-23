@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup as bt
 
 class gdtot:
       def __init__(self):
-          self.url = input("Enter Your GDToT Link:\n")
+          self.url = ''
           self.list = gdtot.error(self)
           self.r = ''
           self.c = gdtot.check(self)
