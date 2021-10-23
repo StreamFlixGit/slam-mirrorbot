@@ -13,6 +13,5 @@ COPY . .
 COPY .netrc /root/.netrc
 RUN chmod 600 /usr/src/app/.netrc
 RUN chmod +x aria.sh
-RUN chmod +x gdtot
 
 CMD ["bash","start.sh"]
